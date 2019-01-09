@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "449642278798",
+    "project_id": "firebase-daily-note"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449642278798:android:a1f91c76331fd1c3",
+        "android_client_info": {
+          "package_name": "com.capsulestudio.dailynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449642278798-9u6l8c53cs6e19ubi331fankre4jvhao.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "449642278798-7nh34d7bbok97i2jb7mn6kig2kntnekt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capsulestudio.dailynote",
+            "certificate_hash": "4aeb8762feff91f7eeb1707667a5967528f999cf"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCik1shTTs2ijKhxAZGK6fGXhG_IHZ5gB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="General">
+
+    <!--<ListPreference-->
+        <!--android:defaultValue="33"-->
+        <!--android:dialogTitle="@string/title_upload_quality"-->
+        <!--android:entries="@array/pref_upload_quality_entries"-->
+        <!--android:entryValues="@array/pref_upload_quality_values"-->
+        <!--android:key="@string/key_upload_quality"-->
+        <!--android:summary="@string/summary_upload_video_quality"-->
+        <!--android:title="@string/title_upload_quality" />-->
+
+    <ListPreference
+        android:defaultValue="20"
+        android:dialogTitle="@string/title_text_size"
+        android:entries="@array/text_sizes_entry"
+        android:entryValues="@array/text_sizes_values"
+        android:key="@string/key_text_size"
+        android:summary="@string/summary_text_size"
+        android:title="@string/title_text_size" />
+
+    <ListPreference
+    android:defaultValue="-16777216"
+    android:dialogTitle="@string/title_text_color"
+    android:entries="@array/color_name"
+    android:entryValues="@array/color_code"
+    android:key="@string/key_text_color"
+    android:summary="@string/summary_text_color"
+    android:title="@string/title_text_color" />
+
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:dialogTitle="@string/title_background_color"
+        android:entries="@array/color_name"
+        android:entryValues="@array/color_code"
+        android:key="@string/key_background_color"
+        android:summary="@string/summary_background_color"
+        android:title="@string/title_background_color" />
+
+</PreferenceCategory>
+
+</PreferenceScreen>
